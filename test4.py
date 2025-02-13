@@ -33,9 +33,3 @@ profiles = [[21,"nathan","m","hindu","indian",5.3,"computer-science"],
             [23,"Luka","f","athiest","german",5.11,"computer-science"],
             [19,"sophie","f","christian","italian",5.9,"bio-chem"],
             [21,"nathan","m","hindu","italian",5.2,"bio-chem"]]
-
-
-for profile in profiles:
-    print("\n\n new profile \n ")
-    for x in range(len(labels)):
-        print(profile[x])
